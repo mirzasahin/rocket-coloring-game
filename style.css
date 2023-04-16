@@ -1,0 +1,67 @@
+body {
+  background-color: antiquewhite;
+}
+#selected {
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+}
+#colors {
+  display: flex;
+  gap: 10px;
+}
+#colors > div {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+#rocket {
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+#content > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#choseColor > * {
+  margin-top: 20px;
+}
+
+#selectedColor {
+  margin-top: 20px;
+}
+
+#fullContent {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#fullContent {
+  zoom: 1.5;
+}
+
+#title {
+  text-align: center;
+  font-size: 80px;
+  font-family: "Dela Gothic One", cursive;
+  color: rgb(22, 22, 22);
+  margin: 0;
+  margin-top: 0.2em;
+}
+
+#buttons {
+  display: inline-flex;
+  gap: 10px;
+}
+
+#buttons > button {
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
